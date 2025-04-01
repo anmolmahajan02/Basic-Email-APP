@@ -1,0 +1,15 @@
+<h1>what email to send</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    <h2>Subject</h2>
+    <input type="text" name="subject">
+    <h2>Content</h2>
+    <input type="text" name="content">
+    <h2>Send To</h2>
+    <input type="text" name="send_to">
+    <h2>Number of Times</h2>
+    <input type="text" name="number"><br><br>
+    <input type="submit">
+
+</form>
