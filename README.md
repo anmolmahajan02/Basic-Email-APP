@@ -1,2 +1,3 @@
 # Basic-Email-App
-<h1 style = ' color red'>IMP</h1>
+<h1 style="color: red;">IMP</h1>
+
